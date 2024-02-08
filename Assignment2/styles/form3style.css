@@ -1,0 +1,12 @@
+body {
+    background-image: url(./imge/view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529359.jpg);
+        background-size: cover;
+}
+
+
+div {
+    width: 300px;
+    border: 15px solid rgb(238, 247, 238);
+    padding: 50px;
+    margin: 20px;
+}

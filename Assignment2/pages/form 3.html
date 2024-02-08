@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form3style.css">
+</head>
+<body>
+    <h1 style="color: whitesmoke;">MY FORM THAT RETURNS FIRST AND NAME</h1>
+    <div class="container">
+        <form style="font-size: x-large;" id="form1"
+        onsubmit= 'getFormvalue ()'>
+        First name: <input type="text"
+        name="fname" value="Angellah"><br>
+        Last name: <input style="font-size: large;" type="text"
+        name="lname" value="Nanteza"><br>
+        <input style="font-size: large;" type="submit" value="submit">
+    </form>
+
+    </div>
+    
+    <script>
+        function getFormvalue()
+        {
+            var x= document.getElementById("form1");
+
+            for (var i=0; i<x.length; i++)
+
+            {
+                if (x.elements[i].value!="submit")
+                {
+                    console.log(x.elements[i].value);
+                }
+            }
+ 
+
+        }
+    </script>
+</body>
+</html>
